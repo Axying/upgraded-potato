@@ -1,23 +1,31 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-const int N = 1e6+2 ;
-const ll p = 1e9+5;
+const ll N = 1e8+9;
+ll dp[N];//备忘录
 
-ll dp[N];
-
-int fib(int n){
-	if(dp[n])return dp[n];
-	if(n<=2)return 1;
-	else 
-	return dp[n]=(fib(n-1)+fib(n-2))%p;//带备忘录,注意不是==
+int fb(int n){
+	if(dp[n]){
+		return dp[n];
+		
+	}
+	if(n<=2){
+		return 1;
+	}
+	
+	else{
+		return dp[n] = fb(n-1)+fb(n-2);
+	}
+			
+	
 }
 
 int main()
 {
-	int n;
+	ios::sync_with_stdio(0),cout.tie(0),cin.tie(0);
+	int n = 0;
 	cin>>n;
-	cout<< fib(n);
+	cout<<fb(n);
 	
 	return 0;
 }
