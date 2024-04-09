@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 100;
-int a[N];//±íÊ¾Êı×ÖÃ¿Ò»Î»
+int a[N];//è¡¨ç¤ºæ•°å­—æ¯ä¸€ä½
 
-int dfs(int dep){  //dep±íÊ¾Éî¶È£¬´Ó2¿ªÊ¼£¬Îª1µÄÊ±ºòÎª1¸ö
+int dfs(int dep){  //depè¡¨ç¤ºæ·±åº¦ï¼Œä»2å¼€å§‹ï¼Œä¸º1çš„æ—¶å€™ä¸º1ä¸ª
 	int res = 1;
 	for(int i = 1;i<=a[dep-1]/2;i++){
 		a[dep] = i;
