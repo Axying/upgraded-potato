@@ -1,4 +1,4 @@
-//Ã¶¾Ù
+//æžšä¸¾
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1001;

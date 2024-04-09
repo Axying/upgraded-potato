@@ -21,13 +21,13 @@ int main()
 	L.erase(unique(L.begin(),L.end()),L.end());
 	
 	
-	cout<<"离散化数组为:";
+	cout<<"绂绘暎鍖栨暟缁勪负:";
 	for(const auto &i:L){
 		cout<<i<<' ';
 	}
 	cout<<'\n';
 	
-	//查询值对应的下标
+	//鏌ヨ鍊煎搴旂殑涓嬫爣
 	int val = 0;
 	cin>>val;
 	if(val>=(int)L.size())

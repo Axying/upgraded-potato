@@ -2,7 +2,7 @@
 using namespace std;
 using ll = long long;
 const ll N = 1e8+9;
-ll dp[N];//±¸ÍüÂ¼
+ll dp[N];//å¤‡å¿˜å½•
 
 int fb(int n){
 	if(dp[n]){

@@ -1,4 +1,4 @@
-//判断一个日期的下一个回文数
+//鍒ゆ柇涓�涓棩鏈熺殑涓嬩竴涓洖鏂囨暟
 #include <bits/stdc++.h>
 using namespace std;
 

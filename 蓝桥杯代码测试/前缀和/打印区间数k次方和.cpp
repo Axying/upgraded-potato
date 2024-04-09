@@ -1,4 +1,4 @@
-//ǰ׺��
+//前缀和
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,4 +1,4 @@
-//ƽ�⴮
+//平衡串
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1000;
